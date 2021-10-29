@@ -1,0 +1,19 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "movie API graphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leekyungho112/movieql.git"
+  },
+  "author": "lee kyungho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leekyungho112/movieql/issues"
+  },
+  "homepage": "https://github.com/leekyungho112/movieql#readme"
+}
