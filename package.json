@@ -4,7 +4,7 @@
   "description": "movie API graphQL",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/leekyungho112/movieql/issues"
   },
-  "homepage": "https://github.com/leekyungho112/movieql#readme"
+  "homepage": "https://github.com/leekyungho112/movieql#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.14"
+  }
 }
